@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To Check the Login Funtionality and Create Account With InValid Functionality",
+        "description": "",
+        "id": "to-test-facebook-functionality;to-check-the-login-funtionality-and-create-account-with-invalid-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445439200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user give the Invalid Username and Invalid Password",
+            "match": {
+              "location": "StepDefinition.user_give_the_invalid_username_and_invalid_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139775300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Click The Login Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1798430500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Take Screenshot For Invalid Credential error Message",
+            "match": {
+              "location": "StepDefinition.user_take_screenshot_for_invalid_credential_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 721818400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Go Back To The Home Page",
+            "match": {
+              "location": "StepDefinition.user_go_back_to_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18761668600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Clik The Create New Account Button and Fill The Details",
+            "match": {
+              "location": "StepDefinition.user_clik_the_create_new_account_button_and_fill_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193252300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Take Scrrenshot For The Registeration Page",
+            "match": {
+              "location": "StepDefinition.user_take_scrrenshot_for_the_registeration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test Facebook Functionality",
+    "description": "",
+    "id": "to-test-facebook-functionality",
+    "keyword": "Feature",
+    "uri": "fb.feature"
+  }
+]
